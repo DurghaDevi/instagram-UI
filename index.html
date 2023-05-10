@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bgcolor generator</title>
+    <style>
+    h1{margin-top: 100px;
+        font-size: 70px;
+        text-align: center; 
+    }
+    div {
+        margin-top: 100px;
+        padding: 40px 50px;
+        margin-left: 530px;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 10px;
+    }
+    span{
+        font-size: 60px;
+        padding: 12px;
+        border-radius: 50%;
+        color: black;
+    }
+        .c{
+        background-color:chartreuse;
+        }
+        .o{
+        background-color: blueviolet;
+        }
+        .l{
+        background-color: orange;
+        }
+        .O{
+        background-color: pink;
+        }
+        .r{
+        background-color: aqua;
+        }
+        .s{
+            background-color: rgb(179, 84, 179);
+        }
+                body{
+                    background-color: paleturquoise;
+                    color: #000;
+                }
+            </style>
+        </head>
+        <body  id="myDIV">
+            <h1>Background  Colors</h1>
+            <div>
+                <span class="c" onclick="chartreuse()">C</span>
+                <span class="o" onclick="blueviolet()">o</span>
+                <span class="l" onclick="orange()">l</span>
+                <span class="O" onclick="pink()">o</span>
+                <span class="r" onclick="aqua()" >r</span>
+                <span class="s" onclick="purple()">s</span></div>
+
+        <script>
+        function chartreuse() {
+        document.body.style.backgroundColor = "chartreuse";
+        }
+        function blueviolet(){
+            document.body.style.backgroundColor = "blueviolet";
+        }
+        function orange(){
+            document.body.style.backgroundColor = "orange";
+        }
+        function pink(){
+            document.body.style.backgroundColor = "pink";
+        }
+        function aqua(){
+            document.body.style.backgroundColor = "aqua";
+        }
+        function purple(){
+            document.body.style.backgroundColor = "rgb(179, 84, 179)";
+        }
+        </script>
+
+        </body>
+        </html>
